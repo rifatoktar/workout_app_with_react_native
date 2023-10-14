@@ -1,7 +1,5 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-// burası ise uygulama her kapandığında mode türü değişmesin saklansın diye yazıyoruz
-
 export const storeData = async (key, value) => {
 
     try {
